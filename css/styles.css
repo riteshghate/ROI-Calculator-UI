@@ -1,0 +1,641 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.roi-container {
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.csp {
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 16px 3px;
+    display: inline-block;
+    text-align: center;
+    width: 349px;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #288FDB;
+}
+
+.asp {
+    margin-left: 32px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 16px 3px;
+    display: inline-block;
+    text-align: center;
+    width: 349px;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #D4D4D4;
+}
+
+.roi-body {
+
+    margin-left: 250px;
+    margin-right: 250px;
+    border: 2px solid #1080B1;
+    border-radius: 0px 10px 10px 10px;
+    position: relative;
+
+}
+
+.container-left {
+    float: left;
+    width: 67%;
+}
+
+.container-left-inside {
+    border-right: 1px solid #D4D4D4;
+    border-radius: 0px 10px 0px 0px;
+}
+
+.roi-container-cpm {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    text-align: center;
+}
+
+span {
+    background: #288FDB;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    display: block;
+    border-radius: 0 8px 0 0;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.pname {
+    color: #FF7600;
+    ;
+}
+
+.roi-container-body {
+    padding: 7px 6px;
+}
+
+.input-new-patient {
+    margin: 0 12px;
+    border-radius: 2px;
+}
+
+.new-patient-consults {
+    margin-top: 10px;
+}
+
+.leftalign {
+    width: 75%;
+    float: left;
+}
+
+.heading-new-patient {
+    margin-right: 20px;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 22px;
+    background: #288FDB;
+    font-weight: 700;
+}
+
+.rightalign {
+    width: 25%;
+    float: left;
+}
+
+.result-new-patient {
+    color: #ffffff;
+    padding: 5px;
+    font-size: 22px;
+    background: #288FDB;
+    font-weight: 700;
+}
+
+.clear {
+    clear: both;
+}
+
+.info1 {
+    border: 1px solid #D4D4D4;
+    padding-bottom: 7px;
+    border-radius: 0px 0px 3px 3px;
+}
+
+.info1-title-top {
+    margin-top: 4px;
+    padding: 6px 4px;
+}
+
+.info1-leftalign {
+    width: 75%;
+    float: left;
+}
+
+.info1-titleleft {
+    color: black;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+p {
+    margin: 0;
+}
+
+.info1-titleright {
+    width: 25%;
+    float: left;
+}
+
+.info1-span {
+    margin-top: -1px;
+    border: 1px solid #D4D4D4;
+    display: block;
+    border-radius: 2px;
+    margin-left: 4px;
+    padding: 2px 15%;
+    background-color: white;
+    box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    font-weight: bolder;
+}
+
+.info1number1 {
+    border: transparent;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 18px;
+    width: 75%;
+}
+
+.info1-titlemiddle {
+    padding: 6px 4px;
+}
+
+.info1-leftalign-middle {
+    width: 75%;
+    float: left;
+}
+
+.info1-titleleft-middle {
+    color: black;
+    padding: 11px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.info1-title-bottom
+{
+    margin-top: 4px;
+    padding: 6px 4px;
+}
+.info1-leftalign-bottom{
+    width: 75%;
+    float: left;
+}
+.info1-titleleft-bottom{
+    color: black;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.info1-span-bottom{
+    margin-top: 11px;
+    margin-right: 3px;
+    border: 1px solid #D4D4D4;
+    display: block;
+    border-radius: 2px;
+    margin-left: 2px;
+    padding: 2px 15%;
+    background-color: white;
+    box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    font-weight: bolder;
+}
+.info1number1-bottom{
+    border: transparent;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 18px;
+    width: 75%;
+}
+.check-clean-appointment{
+    margin-top: 14px;
+}
+.input-container2{
+    margin: 0 12px;
+    border-radius: 2px;
+}
+.check-clean-appointment-data{
+    margin-top: 10px;
+}
+.leftalign2{
+    width: 75%;
+    float: left;
+}
+.heading2-titleleft{
+    margin-right: 20px;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 22px;
+    background: #288FDB;
+    font-weight: 700;
+}
+.rightalign2{
+    width: 25%;
+    float: left;
+}
+.heading2-titleright{
+    color: #ffffff;
+    padding: 5px;
+    font-size: 22px;
+    background: #288FDB;
+    font-weight: 700;
+}
+.check-clean-appointment-body{
+    border: 1px solid #D4D4D4;
+    padding-bottom: 7px;
+    border-radius: 0px 0px 3px 3px;
+}
+.title2-top{
+    padding: 6px 4px;
+}
+.info2-title{
+    color: black;
+    padding: 2px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.right-align{
+    width: 25%;
+    float: left;
+}
+
+.label-right2{
+    color: black;
+    padding: 2px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.inside-label2{
+    border: 1px solid #D4D4D4;
+    display: block;
+    border-radius: 2px;
+    margin-left: 4px;
+    padding: 2px 15%;
+    background-color: white;
+    -webkit-box-shadow: -2px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
+    font-weight: bolder;
+}
+.label-info2{
+    border: transparent;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 18px;
+    width: 75%
+}
+.right-container{
+    float: left;
+    width: 33%;
+}
+.right_container{
+    color: #ffffff;
+    padding: 2px 5px;
+    font-size: 20px;
+    background: #288FDB;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+    line-height: normal;
+    text-align: center;
+}
+.inside-roi{
+    background: #D4D4D4;
+    margin-left: 25px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.title2-middle{
+    padding: 6px 4px;
+}
+
+.week-block-att{
+    box-shadow: -2px 6px 10px 0px rgba(0,0,0,0.75);
+    border: transparent;
+    display: inline-block;
+    background: white;
+    border-radius: 3px;
+    width: 32px;
+    padding: 4px;
+}
+.inside-week-block{
+    width: 36px;
+    color: #D4D4D4;
+    border: solid transparent;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 3px;
+}
+.week-year{
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    padding-left: 5px;
+    display: block;
+    text-align: left;
+}
+.disclaimer-body{
+    text-align: start;
+    font-size: 14px;
+    font-style: italic;
+    color: #FF0000;
+    padding: 13px 20px;
+    position: relative;
+}
+.disclaimer-body strong{
+    float: left;
+    margin-right: 5px;
+}
+.disclaimer-body p{
+    float: left;
+    width: 66%;
+    padding-right: 12px;
+}
+#logo{
+    position: absolute;
+    top: 20px;
+    bottom: 10px;
+    right: 20px;
+}
+.cpm_container{
+    margin-top: 20px;
+    background: #61ACCB;
+    margin: 0px 20px 0px 20px;
+    border-radius: 4px;
+}
+.title-cpm{
+    text-align: center;
+    color: #FF7600;
+    border-bottom: 1px solid white;
+    margin: 5px 12% 0px 12%;
+    text-shadow: 0 0 3px #000000;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 3px 0;
+}
+.result-cpm{
+    margin: 0 5% 0px 6%;
+}
+.result-cpm1{
+    float: left;
+    position: relative;
+    width: 50%;
+    float: left;
+    align-content: center;
+    text-align: center;
+}
+.result-cpm-content{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.result-cpm1 .content{
+    color: white;
+    font-weight: 600;
+    padding: 0 5px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 23px;
+}
+.result-cpm1 .sub-content{
+    color: white;
+    font-weight: 600;
+    padding: 3px 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 3px #000000;
+}
+.result-cpm2{
+    float: left;
+    position: relative;
+    width: 50%;
+    float: left;
+    align-content: center;
+    text-align: center;
+}
+
+.result-cpm2 .content{
+    color: white;
+    font-weight: 600;
+    padding: 0 5px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 23px;
+}
+.sub-content{
+    color: white;
+    font-weight: 600;
+    padding: 3px 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 3px #000000;
+}
+.plus{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+.asp_container{
+    position: relative;
+    background-color: #61ACCB;
+    margin: 0px 20px 0px 20px;
+    border-radius: 4px;
+}
+.title-asp{
+    text-align: center;
+    color: #FF7600;
+    border-bottom: 1px solid white;
+    margin: 5px 12% 0px 12%;
+    text-shadow: 0 0 3px #000000;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 3px 0;
+}
+.result-asp{
+    margin: 0 5% 0px 6%
+}
+.result-asp1{
+    float: left;
+    position: relative;
+    width: 50%;
+    float: left;
+    align-content: center;
+    text-align: center;
+}
+.result-cpm-content{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.content{
+    color: white;
+    font-weight: 600;
+    padding: 0 5px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 23px;
+}
+.sub-content{
+    color: white;
+    font-weight: 600;
+    padding: 3px 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 3px #000000;
+}
+.result-asp2{
+    float: left;
+    position: relative;
+    width: 50%;
+    float: left;
+    align-content: center;
+    text-align: center;
+}
+.equal{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+.total-financial-summary{
+    margin: 5px 7px 3px 7px;
+    padding-bottom: inherit;
+    position: relative; 
+    background: #1882ac;
+    border-radius: 4px;
+}
+.total-financial-2{
+    margin-top: 22px;
+}
+.total-financial-2 .summary-title{
+    margin: 5px 3% 0px 3%;
+}
+.summary-title{
+    text-align: center;
+    color: #FF7600;
+    border-bottom: 1px solid white;
+    margin: 5px 12% 0px 12%;
+    text-shadow: 0 0 3px #000000;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 3px 0;
+}
+.summary-result{
+    margin: 0 5% 0px 6%;
+}
+.total-summary-result1 .total-summary-result2{
+    background-repeat: round;
+    float: left;
+    FONT-WEIGHT: 500;
+    width: 48%;
+    background: #15C6CA;
+    margin: 1%;
+    border-radius: 3px;
+    margin-top: 6px;
+    padding: 10px 0px;
+}
+.title-financial{
+    color: white;
+    font-weight: 600;
+    padding: 0 5px;
+    font-size: 12px;
+    text-align: center;
+    margin: 0px;
+}
+.sub_title_ff{
+    margin: 0px;
+    color: white;
+    font-weight: 600;
+    padding: 0 5px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 3px #000000;
+}
+.title .total-summary-result2{
+    color: white;
+    font-weight: 600;
+    padding: 0 5px;
+    font-size: 12px;
+    text-align: center;
+}
+.total-summary-result1 .title{
+    color: white;
+    font-weight: 600;
+    padding: 0 5px;
+    font-size: 12px;
+    text-align: center;
+}
+.sub_title_ff{
+    color: white;
+    font-weight: 600;
+    padding: 0 5px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 3px #000000;
+}
+.total-summary-result1,
+.total-summary-result2{
+    background-repeat: round;
+    float: left;
+    FONT-WEIGHT: 500;
+    width: 48%;
+    background: #15C6CA;
+    margin: 1%;
+    border-radius: 3px;
+    margin-top: 6px;
+    padding: 10px 0px;
+}
+.title{
+    color: white;
+    font-weight: 600;
+    padding: 0 5px;
+    font-size: 12px;
+    text-align: center;
+}
+.asp_model-in{
+    margin-top: 20px;
+}

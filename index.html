@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROI Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="roi-container">
+        <span class="csp">ROI-Cash Pay Model</span>
+        <span class="asp">ROI-Conversion & ASP Model</span>
+    </div>
+    <div class="roi-body">
+        <div class="container-left">
+            <div class="container-left-inside">
+                <div class="cash-pay-model">
+                    <div class="roi-container-cpm">
+                        <h3 class="heading"><span>ROI Calculator-Cash Pay Model<label class="pname">"Hart Hearing
+                                    Center"</label></span></h3>
+                        <div class="roi-container-body">
+                            <div class="new-patient">
+                                <div class="input-new-patient">
+                                    <div class="new-patient-consults">
+                                        <div class="new-patient-heading">
+                                            <div class="leftalign">
+                                                <p class="heading-new-patient">1. New Patient Consults</p>
+                                            </div>
+                                            <div class="rightalign">
+                                                <p class="result-new-patient">Enter Input</p>
+                                            </div>
+                                            <div class="clear">
+                                            </div>
+                                            <div class="info1">
+                                                <div class="info1-title-top">
+                                                    <div class="info1-leftalign">
+                                                        <p class="info1-titleleft"># Hearing Assessment / Week</p>
+                                                    </div>
+                                                    <div class="info1-rightalign">
+                                                        <p class="info1-titleright">
+                                                            <span class="info1-span">
+                                                                <input type="number" class="info1number1" placeholder
+                                                                    value="10" min="0"
+                                                                    oninput="validity.valid||(value='');">
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                                <div class="info1-titlemiddle">
+                                                    <div class="info1-leftalign-middle">
+                                                        <p class="info1-titleleft-middle">% Hearing Assessment Agreeing
+                                                            to Cognivue</p>
+                                                    </div>
+                                                    <div class="info1-rightalign-middle">
+                                                        <p class="info1-titleright">
+                                                            <span class="info1-span">
+                                                                <input type="number" class="info1number1" placeholder
+                                                                    value="80" min="0" max="100"
+                                                                    oninput="validity.valid||(value='');">
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                                <div class="info1-titlebottom">
+                                                    <div class="info1-leftalign-bottom">
+                                                        <p class="info1-titleleft-bottom">Incremental Revenue Fee per
+                                                            Cognivue Assessment</p>
+                                                    </div>
+                                                    <div class="info1-rightalign-bottom">
+                                                        <p class="info1-titleright">
+                                                            <span class="info1-span-bottom">
+                                                                <input type="number" class="info1number1-bottom"
+                                                                    placeholder value="80" min="0" max="100"
+                                                                    oninput="validity.valid||(value='');">
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="check-clean-appointment">
+                                <div class="input-container2">
+                                    <div class="check-clean-appointment-data">
+                                        <div class="heading2">
+                                            <div class="leftalign2">
+                                                <p class="heading2-titleleft">2. Check & Clean Appointment </p>
+                                            </div>
+                                            <div class="rightalign2">
+                                                <p class="heading2-titleright">Enter Input</p>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="check-clean-appointment-body">
+                                            <div class="title2-top">
+                                                <div class="leftalign2">
+                                                    <p class="info2-title"># of Check & Clean Appointment</p>
+                                                </div>
+                                                <div class="right-align">
+                                                    <p class="label-right2">
+                                                        <span class="inside-label2">
+                                                            <input type="number" min="0" class="label-info2" placeholder
+                                                                value="35" oninput="validity.valid||(value='')">
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="title2-middle">
+                                                <div class="leftalign2">
+                                                    <p class="info2-title">% CHeck & Clean Appointments Agreeing to
+                                                        Cognivue</p>
+                                                </div>
+                                                <div class="right-align">
+                                                    <p class="label-right2">
+                                                        <span class="inside-label2">
+                                                            <input type="number" min="0" class="label-info2" placeholder
+                                                                value="50" oninput="validity.valid||(value='')">
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="title2-bottom">
+                                                <div class="leftalign2">
+                                                    <p class="info2-title">Incremental Revenue Fee Per Cognivue
+                                                        Assessment</p>
+                                                </div>
+                                                <div class="right-align">
+                                                    <p class="label-right2">
+                                                        <span class="inside-label2">
+                                                            <input type="number" min="0" class="label-info2" placeholder
+                                                                value="50" oninput="validity.valid||(value='')">
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="title2-buttom">
+                                                <div class="leftalign2">
+                                                    <p class="info2-title"></p>
+                                                </div>
+                                                <div class="right-align">
+                                                    <p class="label-right2">
+                                                        <span class="week-year">
+                                                            <span class="week-block-att">
+                                                                <input type="number" class="inside-week-block"
+                                                                    placeholder value="48" max="52" min="0">
+                                                            </span>
+                                                            Week / Year
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="disclaimer-body">
+                                    <strong>Disclaimer: </strong>
+                                    <p>This is a ROI modeling tool for illustration purposes. Estimates are based on
+                                        AU.D. panelist real impact observations. The actual Revenue impact to your
+                                        practice will vary.
+                                        Net Revenue calculation based on $375 monthly subscription fee for Cognivue
+                                        Thrive.</p>
+                                    <img id="logo" src="images/logo.JPG" alt="logo">
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="inside-roi">
+                <p class="right_container">Financial Impact derived from
+                    Cognitive Screening using Cognivue</p>
+                <div class="cpm_container" style="margin-top: 20px;">
+                    <p class="title-cpm">Cash Pay Model
+                    </p>
+                    <div class="result-cpm">
+                        <div class="result-cpm1">
+                            <img src="images/circle1.svg" alt="circle" height="120" style="height: 120px;">
+                            <div class="result-cpm-content">
+                                <p class="content">Monthly
+                                    <br>
+                                    Revenue
+                                </p>
+                                <p id="variable-number" class="sub-content">$5,100</p>
+                            </div>
+                        </div>
+                        <div class="result-cpm2">
+                            <img src="images/circle2.svg" alt="circle" height="120" style="height: 120px;">
+                            <div class="result-cpm-content">
+                                <p class="content">Annual
+                                    <br>
+                                    Revenue
+                                </p>
+                                <p id="variable-number" class="sub-content">$61,200</p>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <p class="plus" style="margin-top: 20px;">+</p>
+                <div class="asp_container">
+                    <div class="asp_model-in">
+                        <p class="title-asp">Conversion & ASP Model</p>
+                        <div class="result-asp">
+                            <div class="result-asp1">
+                                <img src="images/circle1.svg" alt="circle" height="120" style="height: 120px;">
+                                <div class="result-cpm-content">
+                                    <p class="content">Monthly
+                                        <br>
+                                        Revenue
+                                    </p>
+                                    <p id="variable-number" class="sub-content">$0</p>
+                                </div>
+                            </div>
+                            <div class="result-asp2">
+                                <img src="images/circle2.svg" alt="circle" height="120" style="height: 120px;">
+                                <div class="result-cpm-content">
+                                    <p class="content">Annual
+                                        <br>
+                                        Revenue
+                                    </p>
+                                    <p id="variable-number" class="sub-content">$0</p>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+                <p class="equal" style="margin-top: 20px;">=</p>
+                <div class="total-financial-summary">
+                    <div class="total-financial-2">
+                        <p class="summary-title">Total Financial Impact derived from Cognitive Screening using Cognivue
+                        </p>
+                        <div class="summary-result">
+                            <div class="total-summary-result1">
+                                <p class="title-financial">Monthly
+                                    <br>
+                                    Net Revenue
+                                </p>
+                                <p id="tab2" class="sub_title_ff">$4,725</p>
+                            </div>
+                            <div class="total-summary-result2">
+                                <p class="title">Annual
+                                    <br>
+                                    Net Revenue
+                                </p>
+                                <p class="sub_title_ff">$56,700</p>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+
+</html>
